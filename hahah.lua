@@ -1,6 +1,6 @@
 local Lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/ahsrua/AsruaUI/main/sursa.lua"))():MakePrototypeLibrary("NEUILLE")
 local CuteTab = Lib:MakeTab("my little adorable tab", true) -- true to make it open by default (optional)
-CutCuteTab:Toggle("press me", function(state)
+CutCuteTab:Toggle("press me", false) function(state)
             _G.racetest = (state and true or false)
             while _G.racetest do
                 wait()
